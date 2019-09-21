@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.banner {
+  height: 300px;
+  background-color: #fff;
+}
+.banner-c {
+  height: 300px;
+  width: 1200px;
+  margin: 0 auto;
+  background: url(../../首页/img/banner-m.png) no-repeat center;
+}
+.jiaju {
+  height: 650px;
+  background-color: #fff;
+}
+.jiaju-c {
+  height: 650px;
+  width: 1200px;
+  margin: 0 auto;
+  /* background-color: red; */
+}
+.office,
+.dining,
+.more {
+  height: 360px;
+  background-color: #fff;
+}
+.office-c,
+.dining-c,
+.more-c {
+  height: 360px;
+  width: 1200px;
+  margin: 0 auto;
+}
+.title {
+  position: relative;
+  width: 100%;
+  height: 85px;
+  margin-top: 50px;
+}
+.nav {
+  font-size: 14px;
+  color: #767676;
+  /* line-height: 35px; */
+}
+.title a {
+  font-size: 14px;
+}
+
+.dis {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 400px;
+  height: 25px;
+}
+.dis-item {
+  position: relative;
+  float: left;
+  font-size: 14px;
+  text-align: center;
+  line-height: 25px;
+  width: 100px;
+  height: 100%;
+}
+.dis-item a {
+  margin-right: 65px;
+  color: #767676;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.dis .dis-item.mr0 a {
+  margin-left: 0;
+}
+.dis-item .line-h {
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 1px;
+  height: 8px;
+  background-color: #b5b5b5;
+}
+.dis-item .line-v {
+  position: absolute;
+  top: 24px;
+  left: 44px;
+  display: none;
+  width: 12px;
+  height: 1px;
+  background-color: #668aca;
+}
+.dis .dis-item.active .line-v {
+  display: block;
+}
+.dis .dis-item.active a {
+  font-size: 16px;
+  color: #668aca;
+}
+.dis .dis-item:hover .line-v {
+  display: block;
+}
+.dis .dis-item:hover a {
+  font-size: 16px;
+  color: #668aca;
+}
+.picture {
+  width: 100%;
+  height: 565px;
+}
+.picture-box1 {
+  height: 290px;
+}
+.jiaju1 {
+  position: relative;
+  width: 360px;
+  height: 270px;
+  float: left;
+}
+.jiaju2 {
+  position: relative;
+  width: 360px;
+  height: 270px;
+  float: left;
+  margin: 0 60px;
+}
+.jiaju3 {
+  position: relative;
+  float: left;
+  width: 360px;
+  height: 270px;
+}
+.picture-box2 {
+  height: 290px;
+}
+.jiaju4 {
+  position: relative;
+  width: 360px;
+  height: 270px;
+  float: left;
+}
+.jiaju5 {
+  position: relative;
+  width: 360px;
+  height: 270px;
+  float: left;
+  margin: 0 60px;
+}
+.jiaju6 {
+  position: relative;
+  float: left;
+  width: 360px;
+  height: 270px;
+}
+.jiaju .add {
+  font-size: 14px;
+  color: #7f7f7f;
+}
+.jiaju .kind {
+  font-size: 12px;
+  color: #7f7f7f;
+}
+.jiaju .picture .text {
+  position: absolute;
+  bottom: 30px;
+  left: 50px;
+}
+.picture-box {
+  height: 290px;
+}
+.office1,
+.dining1,
+.more1 {
+  position: relative;
+  width: 360px;
+  height: 270px;
+  float: left;
+}
+.office2,
+.dining2,
+.more2 {
+  position: relative;
+  width: 360px;
+  height: 270px;
+  float: left;
+  margin: 0 60px;
+}
+.office3,
+.dining3,
+.more3 {
+  position: relative;
+  float: left;
+  width: 360px;
+  height: 270px;
+}
+.office .add {
+  font-size: 14px;
+  color: #7f7f7f;
+}
+.office .kind {
+  font-size: 12px;
+  color: #7f7f7f;
+}
+.office .picture .text {
+  position: absolute;
+  bottom: 30px;
+  left: 50px;
+}
+.dining .add {
+  font-size: 14px;
+  color: #7f7f7f;
+}
+.dining .kind {
+  font-size: 12px;
+  color: #7f7f7f;
+}
+.dining .picture .text {
+  position: absolute;
+  bottom: 30px;
+  left: 50px;
+}
+.more .add {
+  font-size: 14px;
+  color: #7f7f7f;
+}
+.more .kind {
+  font-size: 12px;
+  color: #7f7f7f;
+}
+.more .picture .text {
+  position: absolute;
+  bottom: 30px;
+  left: 50px;
+}

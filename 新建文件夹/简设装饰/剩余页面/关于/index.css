@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.main {
+  height: 1000px;
+}
+.main-c {
+  height: 1000px;
+  width: 1200px;
+  margin: 0 auto;
+}
+.title {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin-top: 30px;
+}
+.nav {
+  font-size: 14px;
+  color: #767676;
+  /* line-height: 35px; */
+}
+.title a {
+  font-size: 14px;
+}
+.team {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  /* margin-top: 10px; */
+  margin-bottom: 100px;
+}
+.cname {
+  font-size: 18px;
+  font-weight: normal;
+  color: #767676;
+}
+.ename {
+  font-size: 12px;
+  font-weight: normal;
+  color: #767676;
+}
+.line {
+  display: block;
+  height: 1px;
+  width: 30px;
+  background-color: #767676;
+}
+.person1 {
+  margin-top: 20px;
+  width: 600px;
+  height: 200px;
+}
+.img1 {
+  float: left;
+  width: 200px;
+  height: 200px;
+  background: url(img/person1.jpg) no-repeat center;
+}
+.text1,
+.text2,
+.text3,
+.text4 {
+  float: left;
+  height: 200px;
+  width: 370px;
+  margin-left: 30px;
+}
+.name {
+  font-size: 18px;
+  color: #6b6b6b;
+  margin-bottom: 10px;
+}
+.job {
+  font-size: 14px;
+  color: #6b6b6b;
+  margin-bottom: 20px;
+}
+.des {
+  font-size: 12px;
+  color: #6b6b6b;
+}
+.person2 {
+  position: absolute;
+  top: 61px;
+  right: 0;
+  width: 600px;
+  height: 200px;
+}
+.img2 {
+  float: left;
+  width: 200px;
+  height: 200px;
+  background: url(img/person2.jpg) no-repeat center;
+}
+.person3 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 600px;
+  height: 200px;
+}
+.img3 {
+  float: left;
+  width: 200px;
+  height: 200px;
+  background: url(img/person3.jpg) no-repeat center;
+}
+.person4 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 600px;
+  height: 200px;
+}
+.img4 {
+  float: left;
+  width: 200px;
+  height: 200px;
+  background: url(img/person4.jpg) no-repeat center;
+}
+.box {
+  position: relative;
+  height: 370px;
+  width: 1200px;
+  /* margin-top:  */
+}
+.box .text {
+  height: 370px;
+  width: 600px;
+}
+.box .img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 300px;
+  width: 500px;
+  margin: 70px 0 0 50px;
+  background: url(img/img.jpg) no-repeat center;
+}
+.misson {
+  width: 600px;
+  height: 200px;
+}
+.box .a1 {
+  margin: 20px 0;
+  text-indent: 2em;
+  font-size: 14px;
+  color: #989898;
+}
+.box .a2 {
+  text-indent: 2em;
+  font-size: 14px;
+  color: #989898;
+}

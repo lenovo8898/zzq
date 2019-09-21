@@ -1,0 +1,260 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.banner {
+  height: 300px;
+  background-color: #fff;
+}
+.banner-c {
+  height: 300px;
+  width: 1200px;
+  margin: 0 auto;
+  background: url(img/banner.png) no-repeat center;
+}
+.row {
+  height: 800px;
+  background-color: #fff;
+}
+.row-c {
+  height: 800px;
+  width: 1200px;
+  margin: 0 auto;
+}
+.sofa,
+.desk,
+.kas,
+.light {
+  height: 500px;
+  background-color: #fff;
+}
+.sofa-c,
+.desk-c,
+.kas-c,
+.light-c {
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+}
+.title {
+  position: relative;
+  width: 100%;
+  height: 85px;
+  margin-top: 50px;
+}
+.nav {
+  font-size: 14px;
+  color: #767676;
+  /* line-height: 35px; */
+}
+.title a {
+  font-size: 14px;
+}
+
+.dis {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 500px;
+  height: 25px;
+}
+.dis-item {
+  position: relative;
+  float: left;
+  font-size: 14px;
+  text-align: center;
+  line-height: 25px;
+  width: 100px;
+  height: 100%;
+}
+.dis-item a {
+  /* margin-right: 65px; */
+  color: #767676;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.dis .dis-item.mr0 a {
+  margin-left: 0;
+}
+.dis-item .line-h {
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 1px;
+  height: 8px;
+  background-color: #b5b5b5;
+}
+.dis-item .line-v {
+  position: absolute;
+  top: 24px;
+  left: 44px;
+  display: none;
+  width: 12px;
+  height: 1px;
+  background-color: #668aca;
+}
+.dis .dis-item.active .line-v {
+  display: block;
+}
+.dis .dis-item.active a {
+  font-size: 16px;
+  color: #668aca;
+}
+.dis .dis-item:hover .line-v {
+  display: block;
+}
+.dis .dis-item:hover a {
+  font-size: 16px;
+  color: #668aca;
+}
+.picture {
+  width: 100%;
+  height: 565px;
+}
+.picture-box1 {
+  height: 360px;
+}
+.row1 {
+  position: relative;
+  width: 360px;
+  height: 270px;
+  float: left;
+}
+.row2 {
+  position: relative;
+  width: 360px;
+  height: 270px;
+  float: left;
+  margin: 0 60px;
+}
+.row3 {
+  position: relative;
+  float: left;
+  width: 360px;
+  height: 270px;
+}
+.picture-box2 {
+  height: 360px;
+}
+.row4 {
+  position: relative;
+  width: 360px;
+  height: 270px;
+  float: left;
+}
+.row5 {
+  position: relative;
+  width: 360px;
+  height: 270px;
+  float: left;
+  margin: 0 60px;
+}
+.row6 {
+  position: relative;
+  float: left;
+  width: 360px;
+  height: 270px;
+}
+.row .add {
+  font-size: 14px;
+  color: #7f7f7f;
+}
+.row .kind {
+  font-size: 12px;
+  color: #7f7f7f;
+}
+.row .picture .text {
+  position: absolute;
+  bottom: -80px;
+  left: 100px;
+}
+.picture-box {
+  height: 320px;
+}
+.sofa1,
+.desk1,
+.kas1,
+.light1 {
+  position: relative;
+  width: 360px;
+  height: 270px;
+  float: left;
+}
+.sofa2,
+.desk2,
+.kas2,
+.light2 {
+  position: relative;
+  width: 360px;
+  height: 270px;
+  float: left;
+  margin: 0 60px;
+}
+.sofa3,
+.desk3,
+.kas3,
+.light3 {
+  position: relative;
+  float: left;
+  width: 360px;
+  height: 270px;
+}
+.sofa .add {
+  font-size: 14px;
+  color: #7f7f7f;
+}
+.sofa .kind {
+  font-size: 12px;
+  color: #7f7f7f;
+}
+.sofa .picture .text {
+  position: absolute;
+  bottom: -80px;
+  left: 100px;
+}
+.desk .add {
+  font-size: 14px;
+  color: #7f7f7f;
+}
+.desk .kind {
+  font-size: 12px;
+  color: #7f7f7f;
+}
+.desk .picture .text {
+  position: absolute;
+  bottom: -80px;
+  left: 100px;
+}
+.kas .add {
+  font-size: 14px;
+  color: #7f7f7f;
+}
+.kas .kind {
+  font-size: 12px;
+  color: #7f7f7f;
+}
+.kas .picture .text {
+  position: absolute;
+  bottom: -80px;
+  left: 100px;
+}
+.light .add {
+  font-size: 14px;
+  color: #7f7f7f;
+}
+.light .kind {
+  font-size: 12px;
+  color: #7f7f7f;
+}
+.light .picture .text {
+  position: absolute;
+  bottom: -80px;
+  left: 100px;
+}
